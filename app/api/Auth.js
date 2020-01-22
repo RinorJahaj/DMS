@@ -29,11 +29,11 @@ export class Auth {
         if (info)
             return JSON.parse(info);
 
-        //automatically log-in a Enjon Podrimaj
+
         if (info == undefined)
             return {
-                username: 'Enjon',
-                displayName: 'Enjon Podrimaj'
+                username: 'Arton',
+                displayName: 'Arton Ramadani'
             };
         return null;
     }
